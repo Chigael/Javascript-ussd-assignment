@@ -11,6 +11,9 @@ body{
     padding: 30px;
     text-align: center;
 }
+span{
+    color: rgb(56, 31, 126);
+}
 p{
     font-size: 20px;
 }
@@ -20,8 +23,19 @@ button{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color:rgb(226, 84, 2) ;
+    background-color:rgb(226, 84, 2);
     color: #000000;
+    border: rgb(56, 31, 126), 5px;
+    border-radius: 10px;
     transition: ease-in-out;
     
 }
+.ps{
+    color: rgb(56, 31, 126);
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+   .card button {
+      width: 150px;
+    }
+  }

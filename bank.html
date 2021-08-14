@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USSD Banking/title>
-    <link rel="stylesheet" href="/ussd.css">
-</head>
-     <body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>USSD Banking Assignment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/ussd.css">
+    </head>
+    <body>
         <div class="card">
-            <h1>Welcome to Access bank USSD banking Platform</h1>
+            <h1>Welcome to Access bank <span>USSD</span> banking Platform</h1>
             <p>Created by Abigael Anyanwu</p>
             <p>Let's begin your journey</p>
             <button onclick="myFunction()">Start Banking</button>
+            <p class="ps">Hey!!! Don't fret this is not real</p>
         </div>
         
         <script>
-        function myFunction(){
-        const USSD = 901 
-                var bankcode = prompt('Enter your Online Banking Code')
+            function myFunction(){
+             const USSD = 901 
+                var bankcode = prompt('Enter your Access Bank USSD Banking Code')
                 //bankcode = Number(bankcode);
         
                 if (bankcode == `*${USSD}#`) {
@@ -313,5 +316,5 @@
                     */
                    /*the end*/
         </script>
-</body>
+    </body>
 </html>
